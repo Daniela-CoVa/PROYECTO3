@@ -15,19 +15,27 @@ public class TrabajoDES extends JFrame{
        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        setLocationRelativeTo(null);
 }
+    public static void main(String[] args){
+        Calculadora
+    }
     public void AddComponentes (JPanel Panel) {
         pantalla.setLayout(null);
         pantalla.setBounds(10, 70, 260, 90);
+        cero.setBounds(15, 120, 60, 60);
+        uno.setBounds(115, 120, 60, 60);
+        dos.setBounds(215, 120, 60, 60);
+        tres.setBounds(315, 220, 60, 60);
+        cuatro.setBounds(415, 220, 60, 60);
+        cinco.setBounds(515, 220, 60, 60);
+      //  seis.setBounds;
         
                 
-    }
-    
-    public void agregarComponentes () {  
+ /*
         cero.addActionListener(new ActionListener(){
         @Override
         public void actionPerformed(ActionEvent e){
-        String result = resultadoOp.getText();
-        cero.setText(result+"0");
+        String result = pantalla.getText();
+        pantalla.setText(result+"0");
         }
     });
      
@@ -102,7 +110,7 @@ public class TrabajoDES extends JFrame{
         nueve.setText(result+"9");
         }
     });
-        
+        */
         
         
         
